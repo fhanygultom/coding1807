@@ -1,0 +1,163 @@
+.intro {
+  background-image: url(assets/IMG/main-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap");
+
+/* ini pengaruh kemana? */
+.pake-open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.navbar-brand {
+  margin-right: 142px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  font-family: "open sans", sans-serif;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+}
+
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar * {
+  color: white !important;
+}
+
+.hero {
+  margin-top: 200px;
+}
+
+.hero h1,
+.hero p {
+  color: white;
+}
+
+.hero h1 {
+  font-family: arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+}
+
+.button {
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+}
+
+.hero p {
+}
+
+.btn-warning {
+  margin-top: 50px;
+  border-radius: 4px;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  font-weight: bold;
+  padding: 15px 55px;
+}
+
+.the-story h3 {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.the-story {
+  position: relative;
+  height: 100px;
+  text-align: center;
+  animation-name: down-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes down-animation {
+  /* keadaan awal */
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  /* keadaan tengah */
+  50% {
+    left: 0px;
+    top: 100px;
+  }
+  /* keadaan semula */
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero {
+    margin-top: 100px;
+  }
+}
+
+/* section2 */
+.section2 {
+  background-image: url(assets/IMG/the-games-bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+}
+
+/* section3 */
+.section3 {
+  background-image: url(assets/IMG/image\ sec-3.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  top: 10px;
+}
+
+/* .col-md-4 {
+  font-family: Arial;
+  left: 5.7%;
+  right: 76.09%;
+  top: 28.48%;
+  bottom: 68.64%;
+  line-height: 24px;
+  letter-spacing: 2px;
+} */
+
+/* section4 */
+.section4 {
+  background-image: url(assets/IMG/requirements.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  top: 10px;
+}
+
+/* section5 */
+.section5 {
+  background-image: url(assets/IMG/section5.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  top: 10px;
+}
+
+/* section6 */
+.section6 {
+  background-image: url(assets/IMG/section5.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  top: 10px;
+}
