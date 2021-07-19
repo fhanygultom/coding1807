@@ -119,10 +119,17 @@
 /* section3 */
 .section3 {
   background-image: url(assets/IMG/image\ sec-3.jpg);
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
-  background-position: center;
-  top: 10px;
+  background-position: top;
+  padding-top: 130px;
+  background: radial-gradient(
+      136.03% 54.57% at 50% 48.04%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 0) 60.63%,
+      #080a0b 99.74%
+    ),
+    url(assets/IMG/image\ sec-3.jpg);
 }
 
 /* .col-md-4 {
@@ -141,23 +148,91 @@
   height: 100vh;
   background-size: cover;
   background-position: center;
-  top: 10px;
+  top: 20px;
 }
 
 /* section5 */
 .section5 {
   background-image: url(assets/IMG/section5.png);
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
-  background-position: center;
-  top: 10px;
+  background-position: top;
+  padding-top: 130px;
+}
+
+.kotak1 {
+  /* position: absolute; */
+  left: 60.26%;
+  right: 8.31%;
+  top: 16.58%;
+  bottom: 64.37%;
+  /* background: yellow; */
+  height: 182px;
+  width: 452px;
+  margin-top: 70px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+}
+
+.orange1 {
+  position: inherit;
+  width: 60px;
+  height: 60px;
+  left: 890.23px;
+  top: 200px;
+  background: #ffb548;
+  margin-top: 10px;
+  border-radius: 50%;
+  margin-left: 12px;
+  z-index: 1;
+}
+
+.kotak1 img {
+  width: 50px;
+  height: 50px;
+  left: 879.92px;
+  margin-top: 5px;
+  border-radius: 50%;
+
+  z-index: 2;
+}
+
+.nama1 h5 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  /* margin-top: 0px; */
+  /* line-height: 12px; */
+  letter-spacing: 2px;
+  color: #ffb548;
+}
+
+.kotak1 h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 /* section6 */
 .section6 {
   background-image: url(assets/IMG/section5.png);
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
-  background-position: center;
-  top: 10px;
+  background-position: top;
+  padding-top: 130px;
 }
+
+/* .elipse {
+  width: 55px;
+  height: 55px;
+  margin-left: 30x;
+  margin-top: 16px;
+  position: inherit;
+  left: 20%;
+  top: 100%;
+  z-index: 1;
+  border-radius: 50%;
+} */
